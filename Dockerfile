@@ -74,7 +74,7 @@ RUN mkdir -p /ms-playwright logs final_reports insight_engine_streamlit_reports 
 # Make entry_point.sh executable
 RUN chmod +x /app/entry_point.sh
 
-EXPOSE 5000 8501 8502 8503
+EXPOSE 11370
 
 # Use entry_point.sh as the entrypoint
 ENTRYPOINT ["/app/entry_point.sh"]

@@ -24,7 +24,7 @@ python -c "from MindSpider.main import MindSpider; spider = MindSpider(); spider
 
 # Start the Flask main application
 # This will also start the Streamlit agents and ForumEngine
-echo "Starting BettaFish Flask server on port 5000..."
+echo "Starting BettaFish Flask server on port 11370 (mapped port)..."
 echo "Container started at: $(date)"
 
 exec python /app/app.py
